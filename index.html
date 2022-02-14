@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Cheat Sheet</title>
+</head>
+<body>
+    <a href="blog.html">Go to blog</a>
+    <hr>
+    <!--Headings-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h2>Heading 3</h2>
+    <h2>Heading 4</h2>
+    <h2>Heading 5</h2>
+
+    <!--Paragraphs-->
+    <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis iusto ullam soluta <strong>fuga</strong>  placeat delectus numquam eius deleniti totam eum <em>asperiores fugit inventore</em> asperiores fugit inventore voluptate.<a href="google.cpm">google.com</a> Non ipsum sapiente reprehender it!
+    </p>
+    <p>
+        Lorem ipsum dolor <a href="Google.com" target="_blank">google link with pop up window</a> sit amet consectetur adipisicing elit. Commodi, sequi.
+    </p>
+
+<!--In Hmtl 5 paragraphs you can add <strong></strong>= Bold the word(s) in between the tags.<em></em> = Italicizes the word(s) in between these tags.
+<a href= creates a link to an extgernal or internal document/website. adding the target tag <a href="" Target="_blank" the target tag poens said link in another window--> 
+
+    <!--Lists-->
+    <!-- There are 2 types of lists A) Ordered Lists & B) Unordered Lists-->
+    <!-- All lists Require a <li> </li>-->
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ul>
+    <!--ul puts the list you're creating into list format by bullet points-->
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ol>
+    <!--ol puts the list you're creating into list format by numbers-->
+    <!--Table-->
+    <!--Tables consist of a head and a body referred to as <thead></thead>
+    and <tbody></tbody>-->
+    <!-- in the thead is going to be the headings for each column-->
+    <!-- inside the <thead> there are <tr> tags for table row to create the rows and the <th>in which inside the head you're naming each one-->
+     <!-- inside <tbody> we use <td> because in here we are inputting actual data-->   
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>email</th>
+                <th>Age</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+            <td>Johnny Morris</td>
+            <td>Johnnymorrisportfolio@gmail.com</td>
+            <td>37</td>
+            </tr>
+            <tr>
+                <td>Brian Morris</td>
+                <td>brianalexandermorris89@gmail.com</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Sonia montoya</td>
+                <td>soniamontoyao@gmail.com</td>
+                <td>57</td>
+            </tr>
+            
+        </tbody>
+
+    </table>
+    <!--Button-->
+    <button>Click Me</button>
+
+    <hr/>
+    <!--Forms-->
+    <!-- In Html   we can create the look of the form but we cannot create the functionality-->
+    <form action="process.php" method="post">
+    <div>
+        <div>
+            <label>First Name</label>
+            <input type="Text" name="firstName">
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="Text" name="lastName">
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div> 
+            <label>Message</label>
+            <textarea name="message"></textarea>
+        </div>        
+        <br>
+        <div>
+        <label>Gender</label>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            <input type="submit" name="submit"
+            value="Submit">
+        </select>
+        </div>  
+    </div>
+    </form>
+    <!--Button-->
+    <button>Click Me</button>
+    <a href="google.com"
+    <img src="C:\Users\JohnnyMorris\Pictures\1092805-tech.webp" alt="my sample image">
+
+</body>
+
+
+    
+</html>
